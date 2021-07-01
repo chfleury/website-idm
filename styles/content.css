@@ -3,3 +3,24 @@
   align-items: center;
   justify-content: center;
 }
+
+/* #img-desk {
+  display: block;
+}
+
+#img-mobile {
+  display: hidden;
+}
+
+
+@media (max-width: 600px) {
+  #img-desk {
+    display: hidden; 
+  }
+  
+  #img-mobile {
+    display: block;
+  }
+  
+
+} */
