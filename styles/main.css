@@ -59,6 +59,8 @@ a:hover {
 #logo {
   font-size: 1.5rem;
   font-weight: bold;
+  color: var(--color-title-in-primary);
+
 }
 
 #header {
@@ -68,13 +70,14 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #e7e7e7;
+  background: var(--color-primary);
 }
 
 #menu {
   display: flex;
   list-style: none;
   gap: 0.5rem;
+  
 }
 
 #menu a {
@@ -100,6 +103,15 @@ a:hover {
     visibility: hidden;
     overflow-y: hidden;
   }
+
+  #menu #border {
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background: var(--color-primary-lighter);
+  }
+  
   #nav.active #menu {
     height: calc(50vh - 70px);
     visibility: visible;
@@ -118,6 +130,8 @@ a:hover {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    color: var(--color-title-in-primary);
+
   }
   #hamburger {
     border-top: 2px solid;
