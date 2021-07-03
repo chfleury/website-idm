@@ -37,6 +37,7 @@ img {
 
 #content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -50,6 +51,14 @@ body {
   padding: 0;
   box-sizing: border-box;
 }  
+
+/* body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
+} */
 
 a {
   text-decoration: none;
@@ -99,7 +108,7 @@ a:hover {
   display: block;
   padding: 0.5rem;
   color: var(--color-title-in-primary);
-  font-family: Archivo;
+  font-family: Poppins;
 
 }
 
