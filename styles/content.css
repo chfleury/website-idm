@@ -4,6 +4,23 @@
   justify-content: center;
  
 }
+#apresentacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto 8rem auto;
+}
+#apresentacao h1 {
+  margin: 5rem auto;
+  font: 500 3.6rem Poppins;
+  color: var(--color-primary-light);
+}
+
+#apresentacao p {
+  font: 500 1.3rem Poppins ;
+
+}
+
 #sobre {
   display: flex;
   flex-direction: column;
