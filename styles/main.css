@@ -59,7 +59,10 @@ textarea {
   font: 500 1.6rem Poppins;
   color: var(--color-text-base);
 } */
-
+footer div{
+  height: 70px;
+   background-color: black !important;
+}
 a {
   text-decoration: none;
   font-family: sans-serif;
